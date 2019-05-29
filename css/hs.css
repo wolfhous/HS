@@ -1,0 +1,18 @@
+*{margin:0;padding:0}
+body.bg { background-color: #ffffff; }
+body{font:400 16px/1.62 "pop","Microsoft JhengHei", sans-serif;color:#535353;overflow:hidden}
+h1{font-size:26px;color:#424242;margin-bottom:20px}
+.index,.hs a{color:#0a0a0a !important;}
+.hs{text-align:center;margin:100px auto auto auto;max-width:500px;padding:0 20px}
+.hs{animation:fade-in;animation-duration:1s;-webkit-animation:fade-in 1s}
+.hs a{color:#535353;text-decoration:underline}
+.hs a:link,.hs a:visited{text-decoration:underline}
+#id{height:24px;line-height:24px; margin:15px 0;}
+.avatar{border-radius:64px;}
+.logo{position:relative;width:128px;height:128px;margin:0 auto;margin-bottom:35px;opacity:0.6;
+filter:alpha(opacity=60); /* 针对 IE8 以及更早的版本 */}
+.logo:hover{opacity:1.0;filter:alpha(opacity=100); /* 针对 IE8 以及更早的版本 */}
+.nav a{padding:0 6px 0 6px}
+@keyframes fade-in{0%{opacity:0}40%{opacity:0}100%{opacity:1}}
+@-webkit-keyframes fade-in{0%{opacity:0}40%{opacity:0}100%{opacity:1}}
+
